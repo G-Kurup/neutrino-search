@@ -1,0 +1,11 @@
+# ignore ALL .csv data files
+*.csv
+
+# ignore ALL files in data directories and temp directory
+sig/
+bkg/
+temp/
+logs/
+
+# ignore testing file
+testing.ipynb
