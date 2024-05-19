@@ -13,7 +13,7 @@ The events in .lhco files were processed into flattened, padded vectors using th
 
 The datasets used in this notebook contain proton-proton collision events at a centre of mass energy of 14 TeV, producing hadronic jets. This simulates data that will be collected at the Large Hadron Collider in its high-luminosity run. To generate your own clockwork neutrino model events using MadGraph, Pythia and Delphes, use the code in the clockwork-neutrino-lhco-pipeline repo. 
 
-The code generalizes easily to different models and signals. To use your own signal and background events, generate .lhco files using MadGraph and copy into ./sig and ./bkg sub-directories, depending on whether they are signal processes or SM processes respectively. Run the python script and then this notebook in the same directory. 
+The code generalizes easily to different models and signals. To use your own signal and background events, generate .lhco files using MadGraph and copy signal events and SM events into the ./sig and ./bkg sub-directories respectively. Run `ProcessLHCO.py` and `NeutrinoFinder.ipynb` in the same directory. 
 
 
 *Read the paper [here.](https://arxiv.org/abs/1903.06191)
